@@ -3,7 +3,8 @@
 ### Partie 1 : Gestion des utilisateurs
 
 **Q.1.1.1** Créer l'utilisateur **Lionel Lemarchand** avec les même attribut de société que **Kelly Rhameur**.
-ok
+
+[!img] (https://github.com/shagoi/Checkpoint-3/blob/main/ressources/Q1.1.1a.png?raw=true)
 
 **Q.1.1.2** Créer une OU **DeactivatedUsers** et déplace le compte désactivé de **Kelly Rhameur** dedans.
 ok
