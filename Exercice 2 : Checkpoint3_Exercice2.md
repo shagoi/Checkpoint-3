@@ -4,8 +4,12 @@
 
 **Q.2.1.1** Sur le serveur, créer un compte pour ton usage personnel.
 
+![img](https://github.com/shagoi/Checkpoint-3/blob/main/ressources/Q2.1.1.png?raw=true)
 
 **Q.2.1.2** Quelles préconisations proposes-tu concernant ce compte ?
+
+Je crée un compte standard sans accès administrateur qui sera limité à mon strict besoin. 
+Il permettra la réalisation des missions courantes autres que celles qui nécessite un profil supérieur.
 
 
 ### Partie 2 : Configuration de SSH
@@ -23,14 +27,24 @@ Il est possible de s'y connecter avec n'importe quel compte, y compris le compte
 
 **Q.2.3.1** Quels sont les systèmes de fichiers actuellement montés ?
 
+![img](https://github.com/shagoi/Checkpoint-3/blob/main/ressources/Q2.3.1.png?raw=true)
 
 **Q.2.3.2** Quel type de système de stockage ils utilisent ?
 
+![img](https://github.com/shagoi/Checkpoint-3/blob/main/ressources/Q2.3.2.png?raw=true)
+
 **Q.2.3.3** Ajouter un nouveau disque de 8,00 Gio au serveur et réparer le volume RAID
+
+![img](https://github.com/shagoi/Checkpoint-3/blob/main/ressources/Q2.3.3.png?raw=true)
 
 **Q.2.3.4** Ajouter un nouveau volume logique LVM de 2 Gio qui servira à héberger des sauvegardes. Ce volume doit être monté automatiquement à chaque démarrage dans l'emplacement par défaut : `/var/lib/bareos/storage`.
 
+![img](https://github.com/shagoi/Checkpoint-3/blob/main/ressources/Q2.3.4.png?raw=true)
+
 **Q.2.3.5** Combien d'espace disponible reste-t-il dans le groupe de volume ?
+
+![img](https://github.com/shagoi/Checkpoint-3/blob/main/ressources/Q2.3.5.png?raw=true)
+
 
 ### Partie 4 : Sauvegardes
 
@@ -43,9 +57,15 @@ Les composants `bareos-dir`, `bareos-sd` et `bareos-fd` sont installés ave
 
 **Q.2.5.1** Quelles sont actuellement les règles appliquées sur Netfilter ?
 
+![img](https://github.com/shagoi/Checkpoint-3/blob/main/ressources/Q2.5.1.png?raw=true)
+
 **Q.2.5.2** Quels types de communications sont autorisées ?
 
+![img](https://github.com/shagoi/Checkpoint-3/blob/main/ressources/Q2.5.2.png?raw=true)
+
 **Q.2.5.3** Quels types sont interdit ?
+
+![img](https://github.com/shagoi/Checkpoint-3/blob/main/ressources/Q2.5.3.png?raw=true)
 
 **Q.2.5.4** Sur nftables, ajouter les règles nécessaires pour autoriser bareos à communiquer avec les clients bareos potentiellement présents sur l'ensemble des machines du réseau local sur lequel se trouve le serveur.
 
@@ -57,3 +77,5 @@ Rappel : Bareos utilise les ports TCP 9101 à 9103 pour la communication entre s
 
 - La date et l'heure de la tentative
 - L'adresse IP de la machine ayant fait la tentative
+
+  ![img](https://github.com/shagoi/Checkpoint-3/blob/main/ressources/Q2.6.1.png?raw=true)
